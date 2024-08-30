@@ -6,6 +6,7 @@ import PerkOfQF from "../components/HomePage/PerkOfQF";
 import AccountSize from "../components/HomePage/AccountSize";
 import HowItWorks from "../components/HomePage/HowItWorks";
 import AccountSizeDesign from "../components/HomePage/AccountSizeDesign";
+import MaximizeProfile from "../components/HomePage/MaximizeProfile";
 
 export default function HomePage() {
   return (
@@ -13,8 +14,9 @@ export default function HomePage() {
       <HeroSection />
       <PerkOfQF />
       <HowItWorks />
+      <MaximizeProfile />
       <AccountSizeDesign />
-      {/* <AccountSize /> */}
+      <AccountSize />
       <JoinCommunity />
     </div>
   );

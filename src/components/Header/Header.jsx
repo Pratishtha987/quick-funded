@@ -7,7 +7,9 @@ export default function Header() {
   return (
     // <div>
     <div className="flex gap-5 justify-between items-center px-5 w-full max-w-[1440px] max-md:flex-wrap max-md:max-full">
-      <div>Logo</div>
+      <div>
+        <img src="../logo-quick.png" width="300" />
+      </div>
 
       <div>
         <nav
@@ -15,7 +17,7 @@ export default function Header() {
         max-md:flex-wrap"
         >
           <div>
-            <NavLink to={"/"}>home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
           </div>
           <div>
             <NavLink to={"/affilate"}>AffilatePage</NavLink>

@@ -40,7 +40,11 @@ function JoinCommunity() {
     //       </div>
     //     </div>
     //   </div>
-    <div className="bg-gradient-to-r from-lime-400 to-green-600 rounded-3xl p-8 text-center text-white shadow-lg">
+    // <div
+    //   className="flex flex-col px-3 py-2 w-full max-w-[1440px] rounded-[48px] max-md:px-5
+    // max-md:mt-10 max-md:max-w-full"
+    // >
+    <div className="w-full bg-gradient-to-r from-lime-400 to-green-600 rounded-3xl p-24 px-36 text-center text-white shadow-lg">
       <h2 className="text-4xl font-bold mb-4">Join Our Community</h2>
       <p className="mb-8 text-lg">
         Join our global trader community to share and gain market insights with
@@ -56,6 +60,7 @@ function JoinCommunity() {
         </button>
       </div>
     </div>
+    // </div>
   );
 }
 
