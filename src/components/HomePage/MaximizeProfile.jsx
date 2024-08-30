@@ -25,7 +25,7 @@ function MaximizeProfile() {
       {/* <div> */}
       {/* <div className="absolute inset-0 rounded-full flex items-center justify-center"> */}
       {/* <Percent className="text-white" size={80} /> */}
-      <img src="../public/tool-2.png" className="h-2/4 w-2/4" />
+      <img src="../tool-2.png" className="h-2/4 w-2/4" />
       {/* </div> */}
       {/* <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-2 shadow-lg"></div> */}
       {/* <div className="absolute top-0 left-0 w-4 h-4 bg-green-300 rounded-full" />

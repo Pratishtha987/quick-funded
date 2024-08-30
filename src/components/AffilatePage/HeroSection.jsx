@@ -17,7 +17,7 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 relative">
         <div>
-          <img src="../public/affliate.png" />
+          <img src="../affliate.png" />
         </div>
       </div>
     </div>
