@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-start">
               <div className="mb-8 md:mb-0">
                 <img
-                  src="/api/placeholder/200/50"
+                  src="../logo-quick.png"
                   alt="QuickFunded Logo"
                   className="h-10 mb-4"
                 />
