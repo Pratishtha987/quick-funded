@@ -7,7 +7,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     // <div>
-    <div className="flex gap-5 justify-between items-center px-7 py-4 w-full max-w-[1640px] max-md:flex-wrap max-md:max-full">
+    <div className="flex  gap-5 justify-between items-center px-7 mx-10 py-4 w-full max-w-[1540px] max-md:flex-wrap max-md:max-full">
       <div>
         <img src="../logo-quick.png" width="300" />
       </div>
