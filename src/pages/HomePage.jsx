@@ -7,16 +7,22 @@ import AccountSize from "../components/HomePage/AccountSize";
 import HowItWorks from "../components/HomePage/HowItWorks";
 import AccountSizeDesign from "../components/HomePage/AccountSizeDesign";
 import MaximizeProfile from "../components/HomePage/MaximizeProfile";
+import WhyChooseUs from "../components/HomePage/WhyChooseUs";
+import SuccessStory from "../components/HomePage/SuccessStory";
+import QuickFundedDashboard from "../components/HomePage/QuickFundedDashboard";
 
 export default function HomePage() {
   return (
-    <div className=" flex flex-col items-center bg-white">
+    <div className="bg-black flex flex-col items-center">
       <HeroSection />
+      <QuickFundedDashboard />
       <PerkOfQF />
       <HowItWorks />
       <MaximizeProfile />
+      <WhyChooseUs />
       <AccountSizeDesign />
       <AccountSize />
+      <SuccessStory />
       <JoinCommunity />
     </div>
   );

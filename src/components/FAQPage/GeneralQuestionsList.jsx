@@ -1,7 +1,7 @@
 import React from "react";
 import FAQToggleBtn from "./FAQToggleBtn";
 
-const GeneralQuestions = () => {
+const GeneralQuestionsList = () => {
   return (
     <div>
       <h1>General Questions</h1>
@@ -13,4 +13,4 @@ const GeneralQuestions = () => {
   );
 };
 
-export default GeneralQuestions;
+export default GeneralQuestionsList;

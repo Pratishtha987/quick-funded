@@ -39,8 +39,8 @@ function HeroSection() {
             {/* Buy Challange Button Start*/}
             <div className="flex gap-5 mt-16 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
               <div
-                className="justify-center px-11 py-6 text-base font-semibold text-white 
-                  bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] rounded-[120px] max-md:px-5"
+                className="justify-center px-8 py-3 text-base font-semibold text-white 
+          bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] rounded-[20px] max-md:px-5"
               >
                 Buy Challenge
               </div>

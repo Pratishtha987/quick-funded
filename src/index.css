@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+body {
+  background-color: black;
+  color: #ffffff;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -47,11 +52,12 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  color: green;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+  color: green;
 }
 
 @media (prefers-color-scheme: light) {

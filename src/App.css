@@ -1,7 +1,21 @@
-#root {
+/* import "@fontsource/open-sans"; */
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+/* #root {
+  font-family: "General Sans", sans-serif;
   max-width: 1680px;
   margin: 0 auto;
   padding: 2rem;
+} */
+
+:root {
+  background-color: black;
+  color: #ffffff;
+}
+a:hover {
+  color: #747bff;
+}
+button {
+  background-color: #f9f9f9;
 }
 
 /* .logo {

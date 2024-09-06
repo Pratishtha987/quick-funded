@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Routes, Route, useNavigate } from "react-router-dom";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 import "../Header/Header.css";
 
 export default function Header() {
@@ -20,31 +21,50 @@ export default function Header() {
             <NavLink to={"/"}>Home</NavLink>
           </div>
           <div>
-            <NavLink to={"/affilate"}>AffilatePage</NavLink>
+            <NavLink to={"/affilate"}>Affilate</NavLink>
           </div>
           <div>
             <NavLink to={"/faq"}>FAQ</NavLink>
           </div>
           <div>
-            <NavLink to={"/contatcus"}>Contatcus</NavLink>
+            <NavLink to={"/contactus"}>Contact Us</NavLink>
           </div>
         </nav>
       </div>
 
       <div>
-        <nav className="flex gap-5 justify-center self-stretch leading-[100%]">
-          <div className="my-auto text-lg text-neutral-900">
-            <NavLink to={"/login"}>
-              <button>Login</button>
+        <nav className="flex  gap-5 justify-center self-stretch leading-[100%]">
+          {/* <div className="flex flex-row my-auto text-lg text-neutral-900">
+            <NavLink to={"/clientarea"}>
+              <button>Client Area</button>
+              <BsBoxArrowUpRight />
+            </NavLink>
+          </div> */}
+          {/* <div className="flex items-center text-lg text-neutral-900">
+            <NavLink
+              to="/"
+              className="flex items-center space-x-2 hover:text-neutral-700 "
+            >
+              <button className="font-semibold">Client Area</button>
+              <BsBoxArrowUpRight className="w-5 h-5" />
+            </NavLink>
+          </div> */}
+          <div className="flex items-center text-lg">
+            <NavLink
+              to="/clientarea"
+              className="flex items-center space-x-2 hover:opacity-80  transition-opacity"
+            >
+              <button className=" hover:text-green-500">Client Area</button>
+              <BsBoxArrowUpRight className="w-5 h-5 text-green-500" />
             </NavLink>
           </div>
 
           <div
-            className="justify-center px-11 py-6 text-base font-semibold text-white 
-          bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] rounded-[120px] max-md:px-5"
+            className="justify-center px-8 py-3 text-base font-semibold text-white 
+          bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] rounded-[20px] max-md:px-5"
           >
             <NavLink to={"/signup"}>
-              <button> Signup</button>
+              <button>Buy Challenge</button>
             </NavLink>
           </div>
         </nav>

@@ -1,5 +1,8 @@
 /* PastelKeyboard.css */
-
+body {
+  background-color: black;
+  color: #ffffff;
+}
 .pastel-keyboard {
   background: linear-gradient(145deg, #f0f0f0, #ffffff);
   border-radius: 20px;

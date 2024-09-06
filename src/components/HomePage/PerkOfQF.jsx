@@ -437,7 +437,7 @@ const PerkOfQF = () => {
   ];
 
   return (
-    <div className="bg-white p-8 mt-4 rounded-lg">
+    <div className=" p-8 mt-4 rounded-lg">
       <h2 className="text-4xl font-bold text-green-600 mb-8">
         Perks Of QuickFunded
       </h2>

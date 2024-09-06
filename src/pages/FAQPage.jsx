@@ -195,12 +195,12 @@
 // export default FAQPage;
 
 import React from "react";
-import GeneralQuestions from "../components/FAQPage/GeneralQuestions";
+import GeneralQuestionsList from "../components/FAQPage/GeneralQuestionsList";
 
 const FAQPage = () => {
   return (
     <div>
-      <GeneralQuestions />
+      <GeneralQuestionsList />
       {/* <Key color="#E6E6FA" />
       <Key color="#E6E6FA" /> */}
     </div>
