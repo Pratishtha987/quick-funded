@@ -30,7 +30,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className=" p-8">
+    <div className="p-8">
       <div className="">
         <h1
           className="text-5xl font-bold bg-clip-text 

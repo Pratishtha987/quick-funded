@@ -57,6 +57,10 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
+                {/* <div>
+                  <input />
+                  <button onClick={}></button>
+                </div> */}
               </div>
 
               <div>
