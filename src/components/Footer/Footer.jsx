@@ -40,30 +40,24 @@ export default function Footer() {
                   {/* <a href="#" className="text-gray-600 hover:text-gray-800">
                     <Discord size={24} />
                   </a> */}
-                  <img
-                    href="https://www.facebook.com/people/QuickFunded/61563946089420/?mibextid=ZbWKwL"
-                    src="../facebook.png"
-                  ></img>
-                  <img
-                    href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09"
-                    src="../twitter.png"
-                  ></img>
-                  <img
-                    href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09"
-                    src="../instagram.png"
-                  ></img>
-                  <img
-                    href="https://discord.com/invite/yHsWZdTY"
-                    src="../discord.png"
-                  ></img>
-                  <img
-                    href="https://www.youtube.com/@quickfunded?si=8HMMwX425lPfL9KN"
-                    src="../youtube.png"
-                  ></img>
-                  <img
-                    href="https://t.me/quick_funded"
-                    src="../telegram.png"
-                  ></img>
+                  <a href="https://www.facebook.com/people/QuickFunded/61563946089420/?mibextid=ZbWKwL">
+                    <img src="../facebook.png"></img>
+                  </a>
+                  <a href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09">
+                    <img src="../twitter.png"></img>
+                  </a>
+                  <a href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09">
+                    <img src="../instagram.png"></img>
+                  </a>
+                  <a href="https://discord.com/invite/yHsWZdTY">
+                    <img src="../discord.png"></img>
+                  </a>
+                  <a href="https://www.youtube.com/@quickfunded?si=8HMMwX425lPfL9KN">
+                    <img src="../youtube.png"></img>
+                  </a>
+                  <a href="https://t.me/quick_funded">
+                    <img src="../telegram.png"></img>
+                  </a>
                   {/* <a
                     href="https://www.flaticon.com/free-icons/discord"
                     title="discord icons"
