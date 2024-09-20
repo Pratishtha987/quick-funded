@@ -10,11 +10,32 @@ import {
   MessageCircle,
   FileText,
 } from "lucide-react";
-import FeatureGrid from "./FeatureGrid";
+// import FeatureGrid from "./FeatureGrid";
+
+const FeatureGrid = ({ features }) => {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {features.map((feature, index) => (
+        <div
+          key={index}
+          className={`${feature.bgColor} p-6 rounded-[30px] flex flex-col items-center text-center`}
+        >
+          <feature.icon className="w-12 h-12 mb-4 text-white" />
+          <h3 className="text-[24px] font-bold text-white">{feature.title}</h3>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const WhyChooseUs = () => {
   const features = [
-    { icon: Calendar, title: "Unlimited Trading Days", bgColor: "bg-blue-500" },
+    {
+      icon: Calendar,
+      title: "Unlimited Trading Days",
+      bgColor: "bg-blue-500",
+      borderRadius: "30px",
+    },
     {
       icon: Beaker,
       title: "Expert Advisor(EA) Allowed",
@@ -49,11 +70,16 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">
+    <div className="container mx-auto px-4 py-8 l">
+      <h2
+        className="font-bold text-center mb-8 text-[60px] bg-clip-text 
+                bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"
+      >
         Why Choose Us
       </h2>
-      <FeatureGrid features={features} />
+      <div className="rounded-md">
+        <FeatureGrid features={features} />
+      </div>
     </div>
   );
 };

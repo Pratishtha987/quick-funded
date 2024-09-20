@@ -64,8 +64,10 @@ const SuccessStory = () => {
         </div> */}
 
         <h2
-          className="flex justify-center text-5xl font-semibold bg-clip-text 
+          className="flex justify-center text-[60px] font-bold bg-clip-text 
                 bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent mb-4"
+          // className="font-bold text-center mb-8  bg-clip-text
+          //       bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"
         >
           Success Stories
         </h2>
@@ -104,7 +106,7 @@ const SuccessStory = () => {
           </div>
 
           {/* Testimonial text */}
-          <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
+          <p className="text-center text-[#121316] opacity-[72%] font-[18px] mb-8 max-w-2xl mx-auto">
             {testimonials[currentIndex].text}
           </p>
 

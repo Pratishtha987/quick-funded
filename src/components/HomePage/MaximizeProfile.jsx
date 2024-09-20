@@ -21,24 +21,27 @@ function MaximizeProfile() {
     //     </button>
     //   </div>
     // </div>
-    <div className="w-full flex md:flex-row items-center justify-center min-h-screen">
+    <div className="max-w-[1438] flex md:flex-row items-center min-h-screen">
+      <div className="flex md:flex-row items-center justify-center h-2/4 w-2/4">
+        <img src="../tool-2.png" />
+      </div>
       {/* <div> */}
       {/* <div className="absolute inset-0 rounded-full flex items-center justify-center"> */}
       {/* <Percent className="text-white" size={80} /> */}
-      <img src="../tool-2.png" className="h-2/4 w-2/4" />
+
       {/* </div> */}
       {/* <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-2 shadow-lg"></div> */}
       {/* <div className="absolute top-0 left-0 w-4 h-4 bg-green-300 rounded-full" />
         <div className="absolute top-8 right-0 w-2 h-2 bg-green-300 rounded-full" /> */}
       {/* </div> */}
-      <div className="h-screen flex flex-col justify-center items-center  max-w-md text-center md:text-left">
+      <div className="h-screen w-1/2 flex flex-col justify-center items-start ml-20  max-w-md text-start md:text-left">
         <h1
-          className="text-4xl font-bold bg-clip-text 
-                bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent mb-4"
+          className="text-[60px] font-bold text-start bg-clip-text 
+                bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent mb-4 -mx-20"
         >
           Maximize Your Profit
         </h1>
-        <p className="mb-4">
+        <p className="mb-4 -ml-20 text-start text-[#121316] opacity-[72%] font-[18px]">
           Boost your profit split to an incredible 95% with our exclusive
           scaling plan! Simply achieve a total profit of 10% on your initial
           account balance for 4 consecutive months, and make at least 4

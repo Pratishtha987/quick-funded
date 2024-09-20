@@ -8,7 +8,12 @@ const ContactUsPage = () => {
     <div className="flex flex-col md:flex-row bg-white p-8 rounded-lg shadow-lg max-w-6xl mx-auto">
       {/* Left side - Contact Information and Map */}
       <div className="md:w-1/2 pr-8">
-        <h2 className="text-4xl font-bold text-green-500 mb-4">Lets talk</h2>
+        <h2
+          className="text-[60px] font-bold text-start bg-clip-text 
+                bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent mb-4 -mx-20 ml-1"
+        >
+          Lets talk
+        </h2>
         <p className="text-gray-600 mb-8">
           If you have any question about our challenges or are not sure which
           plan is right for you, contact our team and lets schedule a call.

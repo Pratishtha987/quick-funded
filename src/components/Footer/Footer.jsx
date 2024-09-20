@@ -4,8 +4,10 @@ import {
   Twitter,
   Instagram,
   MessageCircle,
+  // Discord,
   Youtube,
 } from "lucide-react";
+import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
@@ -20,7 +22,7 @@ export default function Footer() {
                   className="h-10 mb-4"
                 />
                 <div className="flex space-x-4">
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
+                  {/* <a href="#" className="text-gray-600 hover:text-gray-800">
                     <Facebook size={24} />
                   </a>
                   <a href="#" className="text-gray-600 hover:text-gray-800">
@@ -34,7 +36,40 @@ export default function Footer() {
                   </a>
                   <a href="#" className="text-gray-600 hover:text-gray-800">
                     <Youtube size={24} />
-                  </a>
+                  </a> */}
+                  {/* <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <Discord size={24} />
+                  </a> */}
+                  <img
+                    href="https://www.facebook.com/people/QuickFunded/61563946089420/?mibextid=ZbWKwL"
+                    src="../facebook.png"
+                  ></img>
+                  <img
+                    href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09"
+                    src="../twitter.png"
+                  ></img>
+                  <img
+                    href="https://x.com/QuickFunded?t=tgpu5IemaxXq5mdl_ul3SA&s=09"
+                    src="../instagram.png"
+                  ></img>
+                  <img
+                    href="https://discord.com/invite/yHsWZdTY"
+                    src="../discord.png"
+                  ></img>
+                  <img
+                    href="https://www.youtube.com/@quickfunded?si=8HMMwX425lPfL9KN"
+                    src="../youtube.png"
+                  ></img>
+                  <img
+                    href="https://t.me/quick_funded"
+                    src="../telegram.png"
+                  ></img>
+                  {/* <a
+                    href="https://www.flaticon.com/free-icons/discord"
+                    title="discord icons"
+                  >
+                    Discord icons created by Freepik - Flaticon
+                  </a> */}
                 </div>
               </div>
 
@@ -42,19 +77,28 @@ export default function Footer() {
                 <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/affilate"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Affiliate
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/faq"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       FAQ
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/contactus"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Contact Us
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
                 {/* <div>

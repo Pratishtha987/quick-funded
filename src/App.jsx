@@ -97,9 +97,15 @@ import GeneralQuestion from "./components/FAQPage/GeneralQuestion/GeneralQuestio
 import QuestionDetail from "./components/FAQPage/GeneralQuestion/QuestionDetail";
 import ChallengeStageRulesDeatils from "./components/FAQPage/ChallengeStageRules/ChallengeStageRulesDetails";
 import ChallengeStageRules from "./components/FAQPage/ChallengeStageRules/ChallengeStageRules";
+import OneStepRules from "./components/FAQPage/OneStepRules/OneStepRules";
+import OneStepRulesDetails from "./components/FAQPage/OneStepRules/OneStepRulesDetails";
+import TwoStepRulesStage1 from "./components/FAQPage/TwoStepRulesStage1/TwoStepRulesStage1";
+import TwoStepRulesStage1Details from "./components/FAQPage/TwoStepRulesStage1/TwoStepRulesStage1Details";
+import TwoStepRulesStage2 from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2";
+import TwoStepRulesStage2Details from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2Details";
 // import {
 //   BrowserRouter as Router,
-//   Route,
+//   Route,q
 //   Link,
 //   Routes,
 //   useParams,
@@ -134,6 +140,31 @@ function App() {
         <Route
           path="faq/challenge-stage-rules/:routerLink"
           element={<ChallengeStageRulesDeatils />}
+        />
+        <Route path="faq/onestep-rules" element={<OneStepRules />} />
+        <Route
+          path="faq/onestep-rules/:routerLink"
+          element={<OneStepRulesDetails />}
+        />
+        <Route
+          path="faq/challenge-stage-rules/:routerLink"
+          element={<TwoStepRulesStage1 />}
+        />
+        <Route
+          path="faq/twostep-rules-stage-1"
+          element={<TwoStepRulesStage1 />}
+        />
+        <Route
+          path="faq/twostep-rules-stage-2/:routerLink"
+          element={<TwoStepRulesStage1Details />}
+        />
+        <Route
+          path="faq/twostep-rules-stage-2"
+          element={<TwoStepRulesStage2 />}
+        />
+        <Route
+          path="faq/twostep-rules-stage-1/:routerLink"
+          element={<TwoStepRulesStage2Details />}
         />
         <Route path="/contactus" element={<ContactUsPage />} />
         <Route path="*" element={<div>Not Found</div>} />

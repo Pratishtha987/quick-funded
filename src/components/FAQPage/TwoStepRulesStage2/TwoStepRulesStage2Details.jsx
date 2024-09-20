@@ -1,11 +1,13 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import ChallengeStageQns from "./ChallengeStageQns";
+import TwoStepRulesStage2Qns from "./TwoStepRulesStage2Qns";
 // import { Link, useParams } from "react-router-dom";
 
-const ChallengeStageRulesDetails = () => {
+const TwoStepRulesStage2Details = () => {
   const { routerLink } = useParams();
-  const question = ChallengeStageQns.find((q) => q.routerLink === routerLink);
+  const question = TwoStepRulesStage2Qns.find(
+    (q) => q.routerLink === routerLink
+  );
 
   if (!question) return <div>Question not found</div>;
 
@@ -17,10 +19,10 @@ const ChallengeStageRulesDetails = () => {
           <span> &gt;&nbsp;</span>
         </Link>
         <Link
-          to="/faq/challenge-stage-rules"
+          to="/faq/twostep-rules-stage-2"
           className="text-blue-600 mb-4 block"
         >
-          Challenge Stage Rules
+          Two Step Rules - Stage 2
         </Link>
       </div>
       <h1 className="text-3xl font-bold mb-4">{question.question}</h1>
@@ -32,4 +34,4 @@ const ChallengeStageRulesDetails = () => {
   );
 };
 
-export default ChallengeStageRulesDetails;
+export default TwoStepRulesStage2Details;

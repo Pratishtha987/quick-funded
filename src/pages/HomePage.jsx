@@ -18,10 +18,10 @@ export default function HomePage() {
       <QuickFundedDashboard />
       <PerkOfQF />
       <HowItWorks />
-      <MaximizeProfile />
-      <WhyChooseUs />
       <AccountSizeDesign />
       <AccountSize />
+      <MaximizeProfile />
+      <WhyChooseUs />
       <SuccessStory />
       <JoinCommunity />
     </div>
