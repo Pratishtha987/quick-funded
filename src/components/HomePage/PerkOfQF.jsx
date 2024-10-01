@@ -40,7 +40,7 @@ const PerkOfQF = () => {
       title: "Scale Up To 2 Million",
       description:
         "We offer you a scaling plan with funding of up to 2 million.",
-      color: "emerald",
+      color: "teal",
     },
     {
       icon: "../match-trader-1.png",
