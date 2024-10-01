@@ -78,7 +78,7 @@ import { TrendingUp, Scale } from "lucide-react";
 
 const QuickFundedDashboard = () => {
   return (
-    <div className="w-full justify-around max-w-[1438px] flex mx-auto mt-16 max-md:mt-10 max-md:max-w-full">
+    <div className="w-full justify-around max-w-[1438px] flex mx-auto mt-16 max-md:mt-10 max-md:max-w-full max-md:flex-col max-md:gap-0">
       {/* // <div className="mt-20    bg-cover bg-center"> */}
       <div className="flex justify-between items-start">
         <div

@@ -2005,7 +2005,7 @@ const AccountSize = () => {
   );
 
   return (
-    <div className="w-full max-w-[1440px] flex justify-center items-center">
+    <div className="w-full max-w-[1438px] flex justify-center items-center">
       <div className="w-full flex mx-12">
         {/* Left Section */}
         <div className="w-1/3 p-7 rounded-2xl shadow-lg bg-white flex justify-around flex-col py-12">

@@ -21,8 +21,8 @@ function MaximizeProfile() {
     //     </button>
     //   </div>
     // </div>
-    <div className="max-w-[1438] flex md:flex-row items-center min-h-screen">
-      <div className="flex md:flex-row items-center justify-center h-2/4 w-2/4">
+    <div className="w-full max-w-[1438] flex md:flex-row items-center min-h-screen max-md:mt-10 max-md:max-w-full max-md:flex-col max-md:gap-0">
+      <div className="flex md:flex-row items-center justify-center w-2/4">
         <img src="../tool-2.png" />
       </div>
       {/* <div> */}
@@ -34,7 +34,7 @@ function MaximizeProfile() {
       {/* <div className="absolute top-0 left-0 w-4 h-4 bg-green-300 rounded-full" />
         <div className="absolute top-8 right-0 w-2 h-2 bg-green-300 rounded-full" /> */}
       {/* </div> */}
-      <div className="h-screen w-1/2 flex flex-col justify-center items-start ml-20  max-w-md text-start md:text-left">
+      <div className=" w-1/2 flex flex-col justify-center items-start ml-20  max-w-md text-start md:text-left max-md:w-full">
         <h1
           className="text-[60px] font-bold text-start bg-clip-text 
                 bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent mb-4 -mx-20"
