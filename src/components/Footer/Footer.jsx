@@ -1,12 +1,4 @@
 import React from "react";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  MessageCircle,
-  // Discord,
-  Youtube,
-} from "lucide-react";
 import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
@@ -22,24 +14,6 @@ export default function Footer() {
                   className="h-10 mb-4"
                 />
                 <div className="flex space-x-4">
-                  {/* <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <Facebook size={24} />
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <Twitter size={24} />
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <Instagram size={24} />
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <MessageCircle size={24} />
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <Youtube size={24} />
-                  </a> */}
-                  {/* <a href="#" className="text-gray-600 hover:text-gray-800">
-                    <Discord size={24} />
-                  </a> */}
                   <a href="https://www.facebook.com/people/QuickFunded/61563946089420/?mibextid=ZbWKwL">
                     <img src="../facebook.png"></img>
                   </a>

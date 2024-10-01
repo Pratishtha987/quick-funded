@@ -6,9 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
 // import require
 import config from "./config.jsx";
-// import { load } from "config-json";
-// var config = require("config-json");
-// const a = load("config/default.json");
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -16,5 +13,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </BrowserRouter>
 );
 
-// const myValue = config.get("key", "subkey");
 console.log(config);

@@ -129,13 +129,6 @@ const SuccessStory = () => {
           </div>
         </div>
       </div>
-
-      {/* Chat button */}
-      {/* <div className="fixed bottom-4 right-4">
-        <button className="bg-green-500 text-white p-3 rounded-full hover:bg-green-600">
-          Chat with us 👋
-        </button>
-      </div> */}
     </div>
   );
 };

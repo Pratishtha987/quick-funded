@@ -1,26 +1,3 @@
-// import React from "react";
-// import AffliateButton from "./AffliateButton";
-
-// export const AffliatePortal = () => {
-//   return (
-//     <div>
-//       <div className="flex flex-col items-center justify-center p-8 text-center">
-//         <h1 className="text-4xl font-bold text-green-600 mb-4">
-//           Affiliate Portal
-//         </h1>
-//         <p className="text-gray-700 mb-6 max-w-md">
-//           Click the button below, complete the form, and you'll receive all the
-//           necessary information to get started.
-//         </p>
-//         <AffliateButton />
-//         {/* <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">
-//           Become An Affiliate
-//         </button> */}
-//       </div>
-//     </div>
-//   );
-// };
-
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
