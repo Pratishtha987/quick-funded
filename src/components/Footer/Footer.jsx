@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         <footer className="bg-white p-8">
           <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between items-start">
+            <div className="flex flex-col md:flex-row justify-between items-center text-center">
               <div className="mb-8 md:mb-0">
                 <img
                   src="../logo-quick.png"

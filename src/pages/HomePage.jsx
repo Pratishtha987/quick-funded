@@ -13,7 +13,7 @@ import QuickFundedDashboard from "../components/HomePage/QuickFundedDashboard";
 
 export default function HomePage() {
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center mx-auto">
       <HeroSection />
       <QuickFundedDashboard />
       <PerkOfQF />
