@@ -90,8 +90,21 @@ function HeroSection() {
             <h1 className="text-5xl font-bold bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600 leading-[60px] max-md:text-4xl max-md:leading-[53px]">
               Your Trading Journey,
               <br />
-              <span className="font-[54px] bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)s] text-transparent">
+              {/* <span className="font-[54px] bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)s] text-transparent">
                 Our Investment Expertise!{" "}
+              </span> */}
+              <span
+                className="font-[54px] bg-clip-text
+               bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"
+              >
+                Our Investment
+              </span>
+              <br />
+              <span
+                className="font-[54px] bg-clip-text
+               bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"
+              >
+                Expertise!
               </span>
             </h1>
             <p className=" text-[18px]  opacity-[72%] mt-4 text-xl leading-9 bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600 text-gray-700 opacity-72 max-md:max-w-full">
@@ -99,9 +112,17 @@ function HeroSection() {
               team of traders. Unlock the opportunity to trade with up to{" "}
               <span className=" text-[#99fb07]">$2 Million</span> in Funds!
             </p>
-            <button className="hero-button justify-center max-md:px-5 py-3 my-5 px-8 text-base font-semibold text-white bg-gradient-to-r from-green-400 to-emerald-600 rounded-full max-md:mt-10 ">
+            {/* <button className="hero-button justify-center max-md:px-5 py-3 my-5 px-8 text-base font-semibold text-white bg-gradient-to-r from-green-400 to-emerald-600 rounded-full max-md:mt-10 ">
               Buy Challenge
-            </button>
+            </button> */}
+            <div className="flex gap-5 mt-16 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+              <div
+                className="justify-center px-8 py-3 text-base font-semibold text-white
+          bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] rounded-[20px] max-md:px-5"
+              >
+                Buy Challenge
+              </div>
+            </div>
           </div>
         </div>
 
