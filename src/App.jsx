@@ -24,6 +24,17 @@ import TwoStepRulesStage1 from "./components/FAQPage/TwoStepRulesStage1/TwoStepR
 import TwoStepRulesStage1Details from "./components/FAQPage/TwoStepRulesStage1/TwoStepRulesStage1Details";
 import TwoStepRulesStage2 from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2";
 import TwoStepRulesStage2Details from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2Details";
+import PrivacyPolicy from "./components/Footer/PrivacyPolicy";
+import TermsCondition from "./components/Footer/TermsCondition";
+import CookiesPolicy from "./components/Footer/CookiesPolicy";
+import RefundPolicy from "./components/Footer/RefundPolicy";
+import T_C_Affiliate from "./components/Footer/T_C_Affiliate";
+import Disclaimer from "./components/Footer/Disclaimer";
+
+// import SupportPage from "./pages/SupportPage";
+// import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+
+// Add components when ready
 
 function App() {
   return (
@@ -81,6 +92,12 @@ function App() {
           element={<TwoStepRulesStage2Details />}
         />
         <Route path="/contactus" element={<ContactUsPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/cookies-policy" element={<CookiesPolicy />} />
+        <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/t-c-affiliate" element={<T_C_Affiliate />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>
       <Footer />

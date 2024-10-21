@@ -79,34 +79,52 @@ export default function Footer() {
                 <h3 className="font-semibold text-lg mb-4">Important Links</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/privacy-policy"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Privacy Policy
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/cookies-policy"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Cookies Policy
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/terms-condition"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Terms & Conditions
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/disclaimer"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Disclaimer
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/t-c-affiliate"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       T&C Affiliate
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800">
+                    <NavLink
+                      to={"/refund-policy"}
+                      className="text-gray-600 hover:text-gray-800"
+                    >
                       Refund Policy
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
