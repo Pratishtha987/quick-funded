@@ -278,7 +278,7 @@ const TCAffiliate = () => {
         <Menu className="w-6 h-6" />
       </header> */}
 
-      <main className="container mx-auto px-4 py-8 max-w-4xl text-center">
+      <main className="container mx-auto px-4 py-8 max-w-5xl text-center">
         <h1
           className="text-4xl font-bold mb-6 text-[54px] bg-clip-text sm:text-5xl sm:leading-[50px]
                 bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"

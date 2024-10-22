@@ -11,9 +11,12 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="max-w-4xl w-full bg-white overflow-hidden">
+      <div className="max-w-5xl w-full bg-white overflow-hidden">
         <div className="p-6 md:p-8">
-          <h1 className="text-3xl font-bold mb-6 text-gray-800 text-center">
+          <h1
+            className="flex justify-center text-4xl font-bold mb-6 text-[54px] bg-clip-text sm:text-5xl sm:leading-[50px]
+                bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] text-transparent"
+          >
             Privacy Policy
           </h1>
 
