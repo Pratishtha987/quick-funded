@@ -56,8 +56,11 @@ const ContactUsPage = () => {
       </div>
 
       {/* Right side - Contact Form */}
-      <div className="md:w-1/2 bg-[#99fb07] shadow-lg p-8 rounded-lg mt-8 md:mt-0">
-        <h2 className="text-3xl font-bold text-white mb-6">Contact Us</h2>
+      <div
+        className="md:w-1/2 bg-[#99fb07] shadow-lg p-8 rounded-lg mt-8 md:mt-0 justify-center px-8 py-3 text-base font-semibold text-white
+          bg-[linear-gradient(90deg,#88B92F_0%,#109523_100%)] max-md:px-5"
+      >
+        <h2 className="text-3xl font-bold text-white mb-6 ">Contact Us</h2>
         <form>
           <div className="mb-4">
             <label className="block text-white mb-2">
@@ -106,7 +109,19 @@ const ContactUsPage = () => {
             <label className="block text-white mb-2">Phone Number</label>
             <div className="flex">
               <select className="p-2 rounded-l" style={{ width: "80px" }}>
-                <option value="+91">🇮🇳 +91</option>
+                <option
+                  value="Country Code"
+                  className="text-black"
+                  placeholder="Country Code"
+                >
+                  Country Code
+                </option>
+                <option value="+91" className="text-black" placeholder="+91">
+                  🇮🇳 +91
+                </option>
+                <option value="+91" className="text-black" placeholder="+91">
+                  🇮🇳 +91
+                </option>
                 {/* Add more country codes as needed */}
               </select>
               <input

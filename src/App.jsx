@@ -24,6 +24,14 @@ import TwoStepRulesStage1 from "./components/FAQPage/TwoStepRulesStage1/TwoStepR
 import TwoStepRulesStage1Details from "./components/FAQPage/TwoStepRulesStage1/TwoStepRulesStage1Details";
 import TwoStepRulesStage2 from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2";
 import TwoStepRulesStage2Details from "./components/FAQPage/TwoStepRulesStage2/TwoStepRulesStage2Details";
+import AffiliatePartnership from "./components/FAQPage/AffiliatePartnership/AffiliatePartnership";
+import AffiliatePartnershipDetails from "./components/FAQPage/AffiliatePartnership/AffiliatePartnershipDetails";
+import Payouts from "./components/FAQPage/Payouts/Payouts";
+import PayoutsDetails from "./components/FAQPage/Payouts/PayoutsDetails";
+import ScalingPlan from "./components/FAQPage/ScalingPlan/ScalingPlan";
+import ScalingPlanDetails from "./components/FAQPage/ScalingPlan/ScalingPlanDeatils";
+import FundedStageRules from "./components/FAQPage/FundedStageRules/FundedStageRules";
+import FundedStageRulesDetails from "./components/FAQPage/FundedStageRules/FundedStageRulesDetails";
 import PrivacyPolicy from "./components/Footer/PrivacyPolicy";
 import TermsCondition from "./components/Footer/TermsCondition";
 import CookiesPolicy from "./components/Footer/CookiesPolicy";
@@ -91,6 +99,27 @@ function App() {
           path="faq/twostep-rules-stage-1/:routerLink"
           element={<TwoStepRulesStage2Details />}
         />
+        <Route
+          path="faq/affiliate-partnership"
+          element={<AffiliatePartnership />}
+        />
+        <Route
+          path="faq/affiliate-partnership/:routerLink"
+          element={<AffiliatePartnershipDetails />}
+        />
+        <Route path="faq/payouts" element={<Payouts />} />
+        <Route path="faq/payouts/:routerLink" element={<PayoutsDetails />} />
+        <Route path="faq/scaling-plan" element={<ScalingPlan />} />
+        <Route
+          path="faq/scaling-plan/:routerLink"
+          element={<ScalingPlanDetails />}
+        />
+        <Route path="faq/funded-stage-rules" element={<FundedStageRules />} />
+        <Route
+          path="faq/funded-stage-rules/:routerLink"
+          element={<FundedStageRulesDetails />}
+        />
+        AffiliatePartnershipDetails PayoutsDetails
         <Route path="/contactus" element={<ContactUsPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/cookies-policy" element={<CookiesPolicy />} />
